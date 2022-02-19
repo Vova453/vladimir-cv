@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+.avatar{
+    width: 250px;
+    border-radius: 30px;
+    height: 350px;
+} 
+.hover-image-scale{
+    width: 250px;
+    border-radius: 30px;
+    height: 350px;
+}
+.hover-image-scale {
+    display: inline-block; 
+    overflow: hidden; /* Скрываем всё за контуром */
+  }
+  .hover-image-scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; 
+  }
+  .hover-image-scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
+/* .MS{
+    background: red; */
+
+    /* padding-bottom:1px; */
+    /* border-bottom: 2px solid #000; */
+    /* margin-bottom: 1px; */
+    /* padding: 100px; */
+/* } */
+/* .badhabits{
+    background: rgb(90, 160, 90);
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 1px;
+    
+} */
+/* .sport{
+    background: rgb(142, 142, 235);
+    margin-top: 10px;
+
+} */
+.all{
+    background: #36393E;
+    color:#cce3e3;
+} 
+
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+}
+
+/* h1{
+    text-align: center;
+
+} */
+.inst{
+    width: 34px;
+    height: 34px;
+    
+}
+.infH1{
+    position:absolute;
+    left: 300px; 
+    top: -28px;
+
+    
+}
+.info{
+    position:absolute;
+    left: 300px; 
+    top: 70px;
+}
+.hobbyH1{
+    position:absolute;
+    left: 550px; 
+    top: -28px;
+}
+.hobby{
+    position:absolute;
+    left: 550px; 
+    top: 70px;
+}
+
+.Lg{
+    position:absolute;
+    left: 800px; 
+    top: -28px;
+}
+.Languages{
+    position:absolute;
+    left: 800px; 
+    top: 70px;
+}
+.Social_network{
+    position:absolute;
+    left: 1050px; 
+    top: -28px;
+    
+}
+.photo_insta{
+    position:absolute;
+    left: 1051px; 
+    top: 72px;
+    
+    
+}
+.Vk{
+    width: 34px;
+}
+.photo_vk{
+    position:absolute;
+    left: 1095px; 
+    top: 72px;
+}
+/* .boxWhite{
+    background: white;
+    width: 24px;
+    height: 24px;
+    position:absolute;
+    left: 1100px; 
+    top: 80px;
+    z-index: -1;
+
+} */
+.tg{
+    width: 34px;
+    border-radius: 7px;
+    
+}
+.photo_tg{
+    position:absolute;
+    left: 1140px; 
+    top: 72px;
+    width: auto;
+    
+    
+    
+}
+h1{
+    transition:all .3s;
+}
+h1:hover{
+    text-shadow: 0 0 20px #7B68EE,
+     0 0 10px #8A2BE2;
+}
+
+
+
+
